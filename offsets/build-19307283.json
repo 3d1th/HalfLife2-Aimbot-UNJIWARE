@@ -1,0 +1,94 @@
+{
+  "steam_build": "19307283",
+  "game_directory": "hl2",
+  "modules": {
+    "server": {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Half-Life 2\\hl2\\bin\\server.dll",
+      "machine": "0x14c",
+      "timestamp": "0x685de805",
+      "sha256": "99f01211453b2c4a773ee81d73622b8b27d38b54483a4ae5ee48d33a38ec986b",
+      "image_base": "0x10000000"
+    },
+    "client": {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Half-Life 2\\hl2\\bin\\client.dll",
+      "machine": "0x14c",
+      "timestamp": "0x685de804",
+      "sha256": "96c5dd5e3d25ce8f8cc321d123b77dbfe8fa6aaef39df518786055f3cd507fa9",
+      "image_base": "0x10000000"
+    },
+    "engine": {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Half-Life 2\\bin\\engine.dll",
+      "machine": "0x14c",
+      "timestamp": "0x675781e6",
+      "sha256": "6a277234ae8edb4939ed7ef45a27499210f14db3a7f6a9e7e83540492b638d6e",
+      "image_base": "0x10000000"
+    },
+    "input": {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Half-Life 2\\bin\\inputsystem.dll",
+      "machine": "0x14c",
+      "timestamp": "0x67453205",
+      "sha256": "9566709efa9344dd5fce79dbc0d42e94bc302cd1f9c06daf241000f552c6c493",
+      "image_base": "0x10000000"
+    },
+    "surface": {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Half-Life 2\\bin\\vguimatsurface.dll",
+      "machine": "0x14c",
+      "timestamp": "0x674532e7",
+      "sha256": "fabbebc4bc8a29663a74c39ba54b7cf2c41aa802d65e26d50a5d8a745f88c47a",
+      "image_base": "0x10000000"
+    },
+    "physics": {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Half-Life 2\\bin\\vphysics.dll",
+      "machine": "0x14c",
+      "timestamp": "0x674532f1",
+      "sha256": "66a74c0289cf67b1e2666bb3f3010320dfc91481969271c691944b963d2aa485",
+      "image_base": "0x10000000"
+    }
+  },
+  "verified_vtable_slots": {
+    "CBaseEntity::GetDataDescMap": 11,
+    "CBaseEntity::FireBullets": 112,
+    "CBaseCombatCharacter::IRelationType": 296,
+    "CBaseAnimating::GetBoneTransform": 198,
+    "IServerGameDLL::GameFrame": 5,
+    "IServerTools::GetPlayerPosition": 3,
+    "IServerTools::FirstEntity": 7,
+    "IServerTools::NextEntity": 8,
+    "IServerTools::GetKeyValue": 10,
+    "IServerTools::GetBaseEntityByEntIndex": 20,
+    "IVEngineClient::WorldToScreenMatrix": 36
+  },
+  "engine_ray_layout": {
+    "IsRay": 64,
+    "IsSwept": 65,
+    "size": 80
+  },
+  "server_rva": {
+    "FireBullets": 1132592,
+    "GameFrame": 1604960,
+    "SnapEyeAngles": 2128464,
+    "357RecoilReturn": 4254045,
+    "PlayerDataMapGetter": 3032016
+  },
+  "server_fields": {
+    "m_pStudioHdr": 1100,
+    "m_vecAbsOrigin": 636,
+    "m_Collision": 328,
+    "m_nHitboxSet": 856
+  },
+  "probed_server_fields": {
+    "m_iHealth": 224,
+    "m_lifeState": 228,
+    "m_vecPunchAngle": 2252,
+    "m_vecPunchAngleVel": 2264
+  },
+  "probed_client_fields": {
+    "m_vecPunchAngle[0]": 3768,
+    "m_vecPunchAngleVel[0]": 3828
+  },
+  "verification": "Isolated module/datamap/netvar/MinHook diagnostics. Gameplay requires an in-game check.",
+  "references": [
+    "https://github.com/ValveSoftware/source-sdk-2013/tree/singleplayer",
+    "https://github.com/OutOfBoundsOffice/SourcePauseTool"
+  ]
+}
